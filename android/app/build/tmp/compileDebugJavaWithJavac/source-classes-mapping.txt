@@ -1,0 +1,14 @@
+com/jokesproject/MainApplication.java
+ com.jokesproject.MainApplication
+ com.jokesproject.MainApplication$1
+com/jokesproject/BuildConfig.java
+ com.jokesproject.BuildConfig
+com/jokesproject/MainActivity.java
+ com.jokesproject.MainActivity
+com/jokesproject/ReactNativeFlipper.java
+ com.jokesproject.ReactNativeFlipper
+ com.jokesproject.ReactNativeFlipper$1
+ com.jokesproject.ReactNativeFlipper$2
+ com.jokesproject.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DadJokes screen test should render correctly with success response of jokes list 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "black",
+        "fontWeight": "bold",
+        "padding": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Something went wrong. Please try again later.
+  </Text>
+  <RCTScrollView
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    testID="flat-list"
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
+
+exports[`DadJokes screen test should render correctly with with LoadMore 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "black",
+        "fontWeight": "bold",
+        "padding": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Something went wrong. Please try again later.
+  </Text>
+  <RCTScrollView
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    testID="flat-list"
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;

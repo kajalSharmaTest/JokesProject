@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Joke item test should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "#FFA500",
+      "borderRadius": 10,
+      "borderWidth": 1,
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 15,
+      }
+    }
+  >
+    Test joke
+  </Text>
+</View>
+`;
