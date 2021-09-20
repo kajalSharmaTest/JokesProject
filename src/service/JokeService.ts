@@ -1,7 +1,7 @@
 import {REQUEST_NAMES} from '../common/Requests';
+import {Joke} from '../types/Types';
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const fetchJokes = async (page = 1): Promise<any> => {
+export const fetchJokes = async (page = 1): Promise<Joke[]> => {
   const response = await fetch(REQUEST_NAMES.REQUEST_JOKES + page, {
     method: 'GET',
     headers: {

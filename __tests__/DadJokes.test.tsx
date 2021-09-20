@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import 'react-native';
 import DadJokes from '../src/screens/DadJokes';
 import {IntialState, Joke} from '../src/types/Types';
@@ -29,13 +28,14 @@ const successWithJokesListState: IntialState = {
 };
 
 describe('DadJokes screen test', () => {
-  let wrapper: any;
-  let testInstance: any;
+  let wrapper: renderer.ReactTestRenderer;
+  let testInstance: renderer.ReactTestInstance;
 
   // block of code to be executed before each test (render DadJokes with initial empty state, call useEffect to call api)
   beforeEach(() => {
     wrapper = renderer.create(<DadJokes />);
     testInstance = wrapper.root;
+    global.fetch = jest.fn();
     const useReducer = jest.spyOn(React, 'useReducer');
     useReducer.mockImplementationOnce(callback => {
       const success = {

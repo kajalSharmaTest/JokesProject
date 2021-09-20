@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1632131438710" clover="3.2.0">
-  <project timestamp="1632131438710" name="All files">
-    <metrics statements="39" coveredstatements="33" conditionals="14" coveredconditionals="11" methods="10" coveredmethods="8" elements="63" coveredelements="52" complexity="0" loc="39" ncloc="39" packages="7" files="7" classes="7"/>
+<coverage generated="1632152216465" clover="3.2.0">
+  <project timestamp="1632152216466" name="All files">
+    <metrics statements="38" coveredstatements="33" conditionals="14" coveredconditionals="11" methods="10" coveredmethods="8" elements="62" coveredelements="52" complexity="0" loc="38" ncloc="38" packages="7" files="7" classes="7"/>
     <package name="common">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="Requests.ts" path="/Users/kajals2/Documents/Code/JokesProject/src/common/Requests.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
     </package>
     <package name="components">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="JokeItem.tsx" path="/Users/kajals2/Documents/Code/JokesProject/src/components/JokeItem.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
       </file>
     </package>
     <package name="redux.action">
@@ -46,34 +45,34 @@
       <metrics statements="19" coveredstatements="16" conditionals="6" coveredconditionals="5" methods="7" coveredmethods="5"/>
       <file name="DadJokes.tsx" path="/Users/kajals2/Documents/Code/JokesProject/src/screens/DadJokes.tsx">
         <metrics statements="19" coveredstatements="16" conditionals="6" coveredconditionals="5" methods="7" coveredmethods="5"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="49" count="1" type="stmt"/>
-        <line num="50" count="9" type="stmt"/>
-        <line num="52" count="9" type="stmt"/>
-        <line num="53" count="3" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="9" type="stmt"/>
+        <line num="53" count="9" type="stmt"/>
         <line num="54" count="3" type="stmt"/>
         <line num="55" count="3" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="58" count="3" type="stmt"/>
-        <line num="62" count="9" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
         <line num="63" count="3" type="stmt"/>
-        <line num="67" count="9" type="stmt"/>
-        <line num="68" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="69" count="1" type="stmt"/>
-        <line num="73" count="9" type="stmt"/>
+        <line num="66" count="9" type="stmt"/>
+        <line num="67" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="72" count="9" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
         <line num="84" count="0" type="stmt"/>
-        <line num="85" count="0" type="stmt"/>
-        <line num="87" count="1" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
       </file>
     </package>
     <package name="service">
-      <metrics statements="4" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="JokeService.ts" path="/Users/kajals2/Documents/Code/JokesProject/src/service/JokeService.ts">
-        <metrics statements="4" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="4" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="5" count="3" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
       </file>
     </package>

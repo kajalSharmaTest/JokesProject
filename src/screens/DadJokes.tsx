@@ -1,4 +1,5 @@
 /* eslint-disable react-native/no-color-literals */
+/*just 1 color code to use so setting up in styles. For big applicartions , we can  create app level theme and pass theme in props.*/
 import React, {useEffect, useReducer} from 'react';
 import {JokeReducer} from '../redux/reducer/JokeReducer';
 import {IntialState, Joke} from '../types/Types';
@@ -40,7 +41,7 @@ const styles = StyleSheet.create({
 });
 
 const initialState: IntialState = {
-  jokes: [] as Joke[],
+  jokes: [],
   page: 1,
   loading: false,
   error: undefined,
@@ -49,19 +50,17 @@ const initialState: IntialState = {
 const DadJokes = (): JSX.Element => {
   const [state, dispatch] = useReducer(JokeReducer, initialState);
 
-  const getJokes = async (): Promise<void> => {
-    try {
-      dispatch({type: REQUEST});
-      const response = await fetchJokes(state.page);
-      dispatch({type: SUCCESS, payload: response});
-    } catch (error) {
-      dispatch({type: FAILURE});
-    }
-  };
-
   useEffect(() => {
+    const getJokes = async (): Promise<void> => {
+      try {
+        dispatch({type: REQUEST});
+        const response = await fetchJokes(state.page);
+        dispatch({type: SUCCESS, payload: response});
+      } catch (error) {
+        dispatch({type: FAILURE});
+      }
+    };
     getJokes();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [state.page]);
 
   const loadMoreJokes = (): void => {
